@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Anaya QR Scanner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 40px;
+            margin-top: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #4CAF50;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .last-updated {
+            color: #95a5a6;
+            font-size: 0.9rem;
+            background-color: #f8f9fa;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        h2 {
+            color: #4CAF50;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eaeaea;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin: 25px 0 10px 0;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            padding-left: 8px;
+        }
+
+        .highlight-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+
+        .summary-box {
+            background-color: #f1f8e9;
+            border: 2px solid #c8e6c9;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .summary-box h3 {
+            color: #388e3c;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover {
+            background-color: #f9f9f9;
+        }
+
+        .contact-info {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .permission-table td:first-child {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 30%;
+        }
+
+        .no-data {
+            background-color: #fff3e0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #ff9800;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #eaeaea;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #388e3c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(56, 142, 60, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            .permission-table td:first-child {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="subtitle">Anaya QR Scanner</div>
+            <div class="last-updated">Last Updated: <span id="current-date">January 21, 2026</span></div>
+        </header>
+
+        <div class="summary-box">
+            <h3>🔒 Quick Summary</h3>
+            <p><strong>Anaya QR Scanner</strong> is built with privacy as a core principle. Here's what you need to know:</p>
+            <ul>
+                <li><strong>No data collection</strong> – We don't collect any personal information</li>
+                <li><strong>Everything stays on your device</strong> – All scans and history are stored locally</li>
+                <li><strong>No internet connection needed</strong> – The app works completely offline</li>
+                <li><strong>Camera use is private</strong> – Camera data is processed locally and not saved</li>
+                <li><strong>You control everything</strong> – You decide what to save and can delete data anytime</li>
+            </ul>
+        </div>
+
+        <section>
+            <h2>1. Introduction</h2>
+            <p>Welcome to <strong>Anaya QR Scanner</strong> ("we," "our," or "us"). We are committed to protecting your privacy and being transparent about how we handle your information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application (the "App").</p>
+            <p>By downloading, installing, or using Anaya QR Scanner, you agree to the terms of this Privacy Policy.</p>
+        </section>
+
+        <section>
+            <h2>2. Information We Do NOT Collect</h2>
+            <div class="no-data">
+                <p><strong>We want to be absolutely clear about what information we do NOT collect:</strong></p>
+                <ul>
+                    <li><strong>No Personal Information</strong>: We do not collect, store, or transmit any personally identifiable information such as your name, email address, phone number, or location.</li>
+                    <li><strong>No Camera Data</strong>: While the App uses your device's camera to scan QR codes and barcodes, the camera feed is processed locally on your device and is never transmitted to our servers or third parties.</li>
+                    <li><strong>No Internet Permissions</strong>: The App does not require internet access to function. All scanning and processing occurs locally on your device.</li>
+                    <li><strong>No Analytics or Tracking</strong>: We do not use any analytics, tracking tools, or advertising SDKs that would collect usage data.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Information Processed Locally</h2>
+            <p>The App processes the following information <strong>locally on your device only</strong>:</p>
+            
+            <h3>3.1 Scan Results</h3>
+            <ul>
+                <li>QR code and barcode content that you scan</li>
+                <li>Scan history (if you choose to save scans)</li>
+                <li>Scan timestamps and scan type (QR Code or Barcode)</li>
+            </ul>
+            
+            <h3>3.2 Device Storage</h3>
+            <ul>
+                <li>Scan history is stored locally on your device using the device's internal storage</li>
+                <li>No scan data is backed up to cloud services or transmitted externally</li>
+                <li>Data is stored using Android's SharedPreferences system</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Permissions & Their Purpose</h2>
+            
+            <table class="permission-table">
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Purpose</th>
+                        <th>Control</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Camera</td>
+                        <td>To scan QR codes and barcodes. The camera is used only for real-time scanning. No images or video are saved or transmitted.</td>
+                        <td>You can deny this permission, but the App's scanning functionality will not work.</td>
+                    </tr>
+                    <tr>
+                        <td>Storage (Optional)</td>
+                        <td>To save scan history locally on your device and potentially export scans.</td>
+                        <td>This is an optional permission that you can deny. You can still use scanning features without it.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>5. Third-Party Services</h2>
+            
+            <h3>5.1 Google Play Services</h3>
+            <p>The App may use Google Play Services for:</p>
+            <ul>
+                <li>App distribution and updates</li>
+                <li>Basic functionality framework</li>
+            </ul>
+            
+            <h3>5.2 External Actions</h3>
+            <p>When you use certain features in the App, you may be directed to third-party services:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                        <th>Data Handling</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Open in Browser</td>
+                        <td>Opens URLs in your default web browser</td>
+                        <td>We do not control external browsers. Data handling depends on your browser's privacy settings.</td>
+                    </tr>
+                    <tr>
+                        <td>Search Product</td>
+                        <td>Opens Google Shopping search in your browser</td>
+                        <td>Search queries go directly to Google. We do not see or store these queries.</td>
+                    </tr>
+                    <tr>
+                        <td>Share</td>
+                        <td>Uses Android's built-in sharing system</td>
+                        <td>You choose which app to share with. We don't see what you share or with whom.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="highlight-box">
+                <p><strong>Important:</strong> We do not control these external services and recommend reviewing their respective privacy policies.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>6. Children's Privacy</h2>
+            <p>Anaya QR Scanner is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with information, please contact us so we can delete it.</p>
+        </section>
+
+        <section>
+            <h2>7. Data Security</h2>
+            <p>We implement reasonable security measures to protect the information stored locally on your device. However, no method of electronic storage is 100% secure, and we cannot guarantee absolute security.</p>
+        </section>
+
+        <section>
+            <h2>8. Your Rights and Choices</h2>
+            
+            <h3>8.1 Access and Control</h3>
+            <ul>
+                <li>View your scan history within the App</li>
+                <li>Clear individual scan history items (if implemented)</li>
+                <li>Clear all App data through device settings</li>
+            </ul>
+            
+            <h3>8.2 Permission Management</h3>
+            <ul>
+                <li>Grant or revoke camera permissions at any time through device settings</li>
+                <li>Grant or revoke storage permissions at any time through device settings</li>
+            </ul>
+            
+            <h3>8.3 Data Deletion</h3>
+            <ul>
+                <li><strong>Uninstall the App</strong> to remove all locally stored data</li>
+                <li><strong>Clear App data</strong> through device settings (Settings > Apps > Anaya QR Scanner > Storage > Clear Data)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+            <ul>
+                <li>Posting the new Privacy Policy in the App</li>
+                <li>Updating the "Last Updated" date at the top of this policy</li>
+            </ul>
+            <p>You are advised to review this Privacy Policy periodically for any changes. Changes are effective when they are posted.</p>
+        </section>
+
+        <section class="contact-info">
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:</p>
+            <p><strong>Email:</strong> privacy@anayaqrscanner.com<br>
+            <strong>Website:</strong> www.anayaqrscanner.com</p>
+        </section>
+
+        <section>
+            <h2>11. Compliance</h2>
+            <p>This Privacy Policy complies with:</p>
+            <ul>
+                <li>Google Play Developer Policies</li>
+                <li>General Data Protection Regulation (GDPR) principles</li>
+                <li>California Consumer Privacy Act (CCPA) requirements</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>12. Consent</h2>
+            <p>By using Anaya QR Scanner, you consent to this Privacy Policy and agree to its terms.</p>
+        </section>
+
+        <footer>
+            <p>&copy; <span id="current-year">2026</span> Anaya QR Scanner. All rights reserved.</p>
+            <p>This Privacy Policy is effective as of the Last Updated date shown above.</p>
+            <a href="#" class="back-button">← Back to Home</a>
+        </footer>
+    </div>
+
+    <script>
+        // Set current date and year
+        const now = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', options);
+        document.getElementById('current-year').textContent = now.getFullYear();
+        
+        // Back button functionality
+        document.querySelector('.back-button').addEventListener('click', function(e) {
+            e.preventDefault();
+            if (document.referrer) {
+                window.history.back();
+            } else {
+                window.location.href = 'https://www.anayaqrscanner.com';
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId !== '#') {
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 20,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
